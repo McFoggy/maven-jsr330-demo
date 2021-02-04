@@ -42,5 +42,5 @@ The output of the execution is:
 
 we should have expected the plugin to output information stored by the extension at the startup of the build
 
-- [See `InfoExtension` setting the information](https://github.com/McFoggy/maven-jsr330-demo/blob/master/extension-mojo/src/main/java/fr/brouillard/oss/maven/InfoExtension.java#L23)
+- [See `InfoExtension` storing the information](https://github.com/McFoggy/maven-jsr330-demo/blob/master/extension-mojo/src/main/java/fr/brouillard/oss/maven/InfoExtension.java#L23)
 - [Plugin `InfoMojo` accessing the information](https://github.com/McFoggy/maven-jsr330-demo/blob/master/extension-mojo/src/main/java/fr/brouillard/oss/maven/InfoMojo.java#L22)
