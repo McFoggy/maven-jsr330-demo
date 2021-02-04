@@ -24,6 +24,8 @@ mvn validate
 The output of the execution is:
 
 ````
+>mvn validate
+[INFO] extension generated information: Build started at 1612470960461
 [INFO] Scanning for projects...
 [INFO]
 [INFO] --------------------< fr.brouillard.oss:maven-demo >--------------------
@@ -31,12 +33,12 @@ The output of the execution is:
 [INFO] --------------------------------[ pom ]---------------------------------
 [INFO]
 [INFO] --- maven-demo-extension:0:info (demo) @ maven-demo ---
-[ERROR] No information provided
+[ERROR] No information provided, Singleton injection might have failed
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.233 s
-[INFO] Finished at: 2021-02-04T21:06:05+01:00
+[INFO] Total time:  0.204 s
+[INFO] Finished at: 2021-02-04T21:36:00+01:00
 [INFO] ------------------------------------------------------------------------
 ````
 
