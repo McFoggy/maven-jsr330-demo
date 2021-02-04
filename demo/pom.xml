@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.brouillard.oss</groupId>
+    <artifactId>maven-demo</artifactId>
+    <version>0</version>
+    <name>maven demo</name>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.version>3.6.3</maven.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>fr.brouillard.oss</groupId>
+                <artifactId>maven-demo-extension</artifactId>
+                <version>0</version>
+                <executions>
+                    <execution>
+                        <id>demo</id>
+                        <goals>
+                            <goal>info</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
