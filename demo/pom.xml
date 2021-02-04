@@ -16,7 +16,7 @@
         <plugins>
             <plugin>
                 <groupId>fr.brouillard.oss</groupId>
-                <artifactId>maven-demo-extension</artifactId>
+                <artifactId>maven-demo-mojo</artifactId>
                 <version>0</version>
                 <executions>
                     <execution>

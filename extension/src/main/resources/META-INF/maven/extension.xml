@@ -1,0 +1,5 @@
+<extension>
+  <exportedPackages>
+    <exportedPackage>fr.brouillard.oss.maven.*</exportedPackage>
+  </exportedPackages>
+</extension>

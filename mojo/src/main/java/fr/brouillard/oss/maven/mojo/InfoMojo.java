@@ -1,7 +1,8 @@
-package fr.brouillard.oss.maven;
+package fr.brouillard.oss.maven.mojo;
 
 import javax.inject.Inject;
 
+import fr.brouillard.oss.maven.InfoHolder;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
