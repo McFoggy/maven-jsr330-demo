@@ -15,8 +15,9 @@
         <maven.version>3.6.3</maven.version>
     </properties>
     <modules>
-		<module>extension</module>
-		<module>mojo</module>
+        <module>shared</module>
+        <module>mojo</module>
+        <module>extension</module>
 		<module>demo</module>
 	</modules>
 </project>
